@@ -29,7 +29,8 @@
  *
  * =============================================================================
  */
-#include "../ConfigMidi.h"
+//#include "../ConfigMidi.h"
+#include "ConfigMidi.h"
 #if TCP_ACTIVE && APPLE_MIDI_ACTIVE
 
 #include "applemidi.h"

@@ -5,7 +5,8 @@
 #include "MidiAction.h"
 #include "MidiCommon.h"
 #include "MidiLogger.h"
-#include "apple-midi/applemidi.h"
+//#include "apple-midi/applemidi.h"
+#include "applemidi.h"
 #include <WiFiUdp.h>
 #if MDNS_ACTIVE
 #include <ESPmDNS.h>
